@@ -56,5 +56,5 @@ func main() {
 	} else {
 		// sukse
 		fmt.Println("Sukses")
-	}
+	} 
 }

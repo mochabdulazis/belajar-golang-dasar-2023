@@ -18,3 +18,4 @@ func Contoh() {
 	fmt.Println(version)
 }
  
+ 
