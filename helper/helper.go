@@ -17,3 +17,4 @@ func Contoh() {
 	sayGoodBye("Eko")
 	fmt.Println(version)
 }
+ 

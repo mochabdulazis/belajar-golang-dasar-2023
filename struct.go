@@ -16,7 +16,7 @@ func main() {
 	fmt.Println(eko)
 
 	eko.Name = "Eko Kurniawan"
-	eko.Address = "Indonesia"
+	eko.Address = "Indonesia" 
 	eko.Age = 30
 	fmt.Println(eko)
 	fmt.Println(eko.Name)

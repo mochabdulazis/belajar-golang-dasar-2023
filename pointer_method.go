@@ -15,4 +15,4 @@ func main() {
 	eko.Married()
 
 	fmt.Println(eko.Name)
-}
+} 

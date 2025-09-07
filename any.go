@@ -5,7 +5,7 @@ import "fmt"
 func Ups() any {
 	//return 1
 	//return true
-	return "Ups"
+	return "Ups" 
 }
 
 func main() {

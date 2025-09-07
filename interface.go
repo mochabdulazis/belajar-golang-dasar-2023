@@ -11,7 +11,7 @@ func SayHello(value HasName) {
 }
 
 type Person struct {
-	Name string
+	Name string 
 }
 
 func (person Person) GetName() string {

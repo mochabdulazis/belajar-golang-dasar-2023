@@ -21,4 +21,4 @@ func main() {
 	registerUser("anjing", func(name string) bool {
 		return name == "anjing"
 	})
-}
+} 

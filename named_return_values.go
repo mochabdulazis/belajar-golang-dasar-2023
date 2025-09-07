@@ -2,15 +2,17 @@ package main
 
 import "fmt"
 
-func getCompleteName() (firstName, middleName, lastName string) {
-	firstName = "Eko"
-	middleName = "Kurniawan"
-	lastName = "Khannedy"
 
-	return firstName, middleName, lastName
+
+func getCompleteName()(firstName, midleName, lastName string){
+	firstName = "Moch"
+	midleName = "Abdul"
+	lastName = "Azis"
+
+	return firstName, midleName, lastName
 }
 
-func main() {
+func main(){
 	a, b, c := getCompleteName()
 	fmt.Println(a, b, c)
 }

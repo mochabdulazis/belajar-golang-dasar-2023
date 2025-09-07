@@ -17,4 +17,4 @@ func main() {
 	*address2 = Address{"Jakarta", "DKI Jakarta", "Indonesia"}
 	fmt.Println(address1)
 	fmt.Println(address2)
-}
+} 

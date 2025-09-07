@@ -2,15 +2,11 @@ package main
 
 import "fmt"
 
-func getHello(name string) string {
-	hello := "Hello " + name
-	return hello
+func getFullName() (string,string){
+	return "Abdul", "Azis"
 }
 
-func main() {
-	result := getHello("Eko")
-	fmt.Println(result)
-
-	fmt.Println(getHello("Budi"))
-	fmt.Println(getHello("Joko"))
+func main(){
+	firstName, _ := getFullName()
+	fmt.Println(firstName)
 }

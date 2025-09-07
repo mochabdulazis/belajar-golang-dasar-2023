@@ -20,4 +20,4 @@ func main() {
 	address2.City = "Bandung"
 	fmt.Println(address1) // ikut berubah
 	fmt.Println(address2) // berubah menjadi Bandung
-}
+} 

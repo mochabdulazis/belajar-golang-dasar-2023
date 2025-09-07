@@ -7,7 +7,7 @@ type Address struct {
 }
 
 func ChangeCountryToIndonesia(address *Address) {
-	address.Country = "Indonesia"
+	address.Country = "Indonesia"  
 }
 
 func main() {
@@ -15,4 +15,4 @@ func main() {
 	ChangeCountryToIndonesia(&address)
 
 	fmt.Println(address)
-}
+} 
